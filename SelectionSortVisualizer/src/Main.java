@@ -92,7 +92,7 @@ public class Main extends Frame {
         array = new int[arraySize];
         Random rand = new Random();
         for (int i = 0; i < arraySize; i++) {
-            array[i] = rand.nextInt(500) + 50; // Ensures value is between 1 and 500
+            array[i] = rand.nextInt(500) + 60; // Ensures value is between 1 and 500
             // System.out.println("Generated: " + array[i]); // Debugging print
         }
         // System.out.println("Before Sorting: " + Arrays.toString(array)); // Print array before sorting
